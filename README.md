@@ -9,7 +9,7 @@ Simple Scripting Language là một dự án mô phỏng cách hoạt động c�
 ### Cách hoạt động
 - Lexer đọc mã nguồn dạng text, tách thành từng token (ví dụ: từ khóa let, dấu =, số 5, toán tử +, v.v.).
 - Parser nhận các token từ Lexer, phân tích cú pháp và xây dựng một cây AST đại diện cho chương trình.
-- Interpreter đi qua cây AST để thực thi các lệnh, tính toán biểu thức và lưu trữ giá trị biến.
+- Interpreter đi qua cây AST để thực thi các lệnh, tính toán biểu thức và lưu trữ giá trị biến.\
 **Ví dụ**:
 ```
 Input: let x = 5 + 3;
